@@ -38,6 +38,12 @@ namespace XMLApplication.Controllers
             return View();
         }
 
+        public string funckija()
+        {
+            return "pera";
+        }
+
+
         ProjectModels model = new ProjectModels();
         public ActionResult AddEditProject(int ? id)
         {
