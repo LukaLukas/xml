@@ -42,6 +42,10 @@ namespace XMLApplication.Controllers
         {
             return "pera";
         }
+        public string ada()
+        {
+            return "pera2";
+        }
 
 
         ProjectModels model = new ProjectModels();
